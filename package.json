@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A comprehensive utility for formatting and converting Bangladeshi currency and numbers.",
   "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noorjsdivs/currency-formatter-bd"
+  },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
