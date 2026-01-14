@@ -1,5 +1,5 @@
 {
-  "name": "currency-converter-bd",
+  "name": "currency-formatter-bd",
   "version": "1.0.0",
   "description": "A comprehensive utility for formatting and converting Bangladeshi currency and numbers.",
   "main": "./dist/index.js",

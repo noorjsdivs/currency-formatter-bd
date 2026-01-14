@@ -1,9 +1,9 @@
-# currency-converter-bd
+# currency-formatter-bd
 
-![Version](https://img.shields.io/npm/v/currency-converter-bd?style=flat-square&color=2E7D32)
-![License](https://img.shields.io/npm/l/currency-converter-bd?style=flat-square&color=blue)
-![Downloads](https://img.shields.io/npm/dt/currency-converter-bd?style=flat-square&color=orange)
-![Size](https://img.shields.io/bundlephobia/minzip/currency-converter-bd?style=flat-square&color=purple)
+![Version](https://img.shields.io/npm/v/currency-formatter-bd?style=flat-square&color=2E7D32)
+![License](https://img.shields.io/npm/l/currency-formatter-bd?style=flat-square&color=blue)
+![Downloads](https://img.shields.io/npm/dt/currency-formatter-bd?style=flat-square&color=orange)
+![Size](https://img.shields.io/bundlephobia/minzip/currency-formatter-bd?style=flat-square&color=purple)
 
 <br/>
 
@@ -43,13 +43,13 @@ A lightweight, robust, and type-safe TypeScript utility for handling **Banglades
 ### 📦 Installation
 
 ```bash
-npm install currency-converter-bd
+npm install currency-formatter-bd
 # or
-yarn add currency-converter-bd
+yarn add currency-formatter-bd
 # or
-pnpm add currency-converter-bd
+pnpm add currency-formatter-bd
 # or
-bun add currency-converter-bd
+bun add currency-formatter-bd
 ```
 
 ### 🛠️ Usage Examples
@@ -58,7 +58,7 @@ bun add currency-converter-bd
 Properly places commas for easy readability in the local context.
 
 ```typescript
-import { formatWithCommas } from 'currency-converter-bd';
+import { formatWithCommas } from 'currency-formatter-bd';
 
 console.log(formatWithCommas(12345678)); 
 // Output: "1,23,45,678"
@@ -71,7 +71,7 @@ console.log(formatWithCommas('100000000050'));
 
 **English (International Style)**
 ```typescript
-import { toWords } from 'currency-converter-bd';
+import { toWords } from 'currency-formatter-bd';
 
 console.log(toWords(1050)); 
 // Output: "One Thousand Fifty"
@@ -82,7 +82,7 @@ console.log(toWords('1098989389384384398434834893'));
 
 **Bangla (Local Style)**
 ```typescript
-import { toWordsBangla } from 'currency-converter-bd';
+import { toWordsBangla } from 'currency-formatter-bd';
 
 console.log(toWordsBangla(150)); 
 // Output: "এক শত পঞ্চাশ"
@@ -104,7 +104,7 @@ console.log(toWordsBangla('100000000000000'));
 Format prices exactly how you want them.
 
 ```typescript
-import { formatCurrency } from 'currency-converter-bd';
+import { formatCurrency } from 'currency-formatter-bd';
 
 // Default
 console.log(formatCurrency(1500)); 
@@ -154,9 +154,9 @@ console.log(formatCurrency(199.99, { decimals: 0 }));
 ### 📦 ইনস্টলেশন
 
 ```bash
-npm install currency-converter-bd
+npm install currency-formatter-bd
 # অথবা
-yarn add currency-converter-bd
+yarn add currency-formatter-bd
 ```
 
 ### 🛠️ ব্যবহারের উদাহরণ
@@ -165,7 +165,7 @@ yarn add currency-converter-bd
 দক্ষিণ এশীয় কমা গ্রুপিং প্রয়োগ করে (৩-২-২)।
 
 ```typescript
-import { formatWithCommas } from 'currency-converter-bd';
+import { formatWithCommas } from 'currency-formatter-bd';
 
 console.log(formatWithCommas(12345678));
 // আউটপুট: "1,23,45,678"
@@ -178,7 +178,7 @@ console.log(formatWithCommas('100000000050'));
 
 **ইংরেজি (আন্তর্জাতিক স্টাইল)**
 ```typescript
-import { toWords } from 'currency-converter-bd';
+import { toWords } from 'currency-formatter-bd';
 
 console.log(toWords(1050));
 // আউটপুট: "One Thousand Fifty"
@@ -186,7 +186,7 @@ console.log(toWords(1050));
 
 **বাংলা (স্থানীয় স্টাইল)**
 ```typescript
-import { toWordsBangla } from 'currency-converter-bd';
+import { toWordsBangla } from 'currency-formatter-bd';
 
 console.log(toWordsBangla(150));
 // আউটপুট: "এক শত পঞ্চাশ"
@@ -207,7 +207,7 @@ console.log(toWordsBangla('100000000000000'));
 টাকার পরিমাণ কীভাবে প্রদর্শন করবেন তা কাস্টমাইজ করুন।
 
 ```typescript
-import { formatCurrency } from 'currency-converter-bd';
+import { formatCurrency } from 'currency-formatter-bd';
 
 // বেসিক
 console.log(formatCurrency(1500));
