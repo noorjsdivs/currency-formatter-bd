@@ -1,0 +1,59 @@
+{
+  "name": "currency-converter-bd",
+  "version": "1.0.0",
+  "description": "A comprehensive utility for formatting and converting Bangladeshi currency and numbers.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "currency",
+    "converter",
+    "bangladesh",
+    "taka",
+    "bdt",
+    "formatter",
+    "number-to-words",
+    "bangla",
+    "english",
+    "comma-formatter",
+    "currency-formatter",
+    "bangladeshi-taka",
+    "typescript",
+    "money",
+    "finance",
+    "taka-formatter",
+    "bdt-converter"
+  ],
+  "author": "Noor Mohammad <noorjsdivs@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.8",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.7.4",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.17"
+  }
+}
